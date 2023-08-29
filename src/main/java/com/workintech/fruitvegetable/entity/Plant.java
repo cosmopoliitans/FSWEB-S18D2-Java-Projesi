@@ -24,8 +24,6 @@ public class Plant {
 
     @Column(name = "price")
     @NotNull
-    @NotEmpty
-    @NotBlank
     @DecimalMin("10")
     private double price;
 }
